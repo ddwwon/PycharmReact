@@ -8,11 +8,14 @@ class App extends Component{
   }
 }*/
 
-import React from 'react';
+import React from "react";
 import MyComponent from "./MyComponent";
+import Counter from "./Counter";
+import Hi from "./Hi";
+import EventPractice from "./EventPractice";
 
-function  App(){
-  return <MyComponent name = "하도" MyNumber={3} >리액트</MyComponent>;
+function App() {
+  return <Hi />;
 }
 
 export default App;
