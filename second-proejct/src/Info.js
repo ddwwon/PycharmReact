@@ -65,24 +65,26 @@ function reducer(state, action) {
 const Info = () => {
   const [state, dispatch] = useReducer(reducer, { name: "", nickname: "" });
   const { name, nickname } = state;
+  const onChange = (e) => {
+    dispatch(e.target);
+  };
   return (
     <div>
       <div>
-        <input name="name" value={name} onChange={onchange} />
-        <input name="nickname" value={nickname} onChange={onchange} />
+        <input name="name" value={name} onChange={onChange} />
+        <input name="nickname" value={nickname} onChange={onChange} />
       </div>
       <div>
         <div>
           <b>이름: </b> {name}
         </div>
-      </div>
-      <div>
         <div>
-          <b>닉네임: </b> {nickName}
+          <b>닉네임: </b> {nickname}
         </div>
       </div>
     </div>
   );
 };
+
 
 export default Info;

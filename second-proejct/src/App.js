@@ -1,10 +1,10 @@
-/*// rsc + enter: 초기 구조 자동완성
-import React, { useState } from "react";
-import Counter from "./Counter";
-import Info from "./Info";
+// rsc + enter: 초기 구조 자동완성
+// import React, { useState } from "react";
+// import Counter from "./Counter";
+// import Info from "./Info";
 
 // 뒷정리함수: 업데이트 직전의 값을 보여주는 거
-const App = () => {
+/*const App = () => {
   const [visible, setvisible] = useState(false);
   // return <Info/>;
   return (
@@ -33,3 +33,4 @@ const App = () => {
 };
 
 export default App;
+

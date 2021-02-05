@@ -23,7 +23,7 @@ function reducer(state, action) {
     case "INCREMENT":
       return { value: state.value + 1 };
     case "DECREMENT":
-      return { value: state.valeu - 1 };
+      return { value: state.value - 1 };
     default:
       return state;
   }
