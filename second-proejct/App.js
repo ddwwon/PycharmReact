@@ -28,9 +28,10 @@ import React from "react";
 import Counter from "./Counter";
 import Info from "./Info";
 import Average from "./Average";
+import StyleComponent from "./StyleComponent";
 
 const App = () => {
-  return <Average/>;
+  return <div><StyleComponent/></div>;
 };
 
 export default App;
